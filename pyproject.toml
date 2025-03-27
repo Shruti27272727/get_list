@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "get-papers-list"
+version = "0.1.0"
+description = "Fetch PubMed papers with non-academic authors"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.26.0"
+pytest = "^7.0.0"
+
+[tool.poetry.scripts]
+get-papers-list = "main:main"
